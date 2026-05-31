@@ -1,0 +1,79 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "妹纸图",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "妹纸图"
+      },
+      "url": "/zh"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "美女",
+          "url": "/u",
+          "icon": "HiOutlineUserGroup"
+        },
+        {
+          "title": "定价",
+          "url": "/pricing",
+          "icon": "MdPayment"
+        }
+      ]
+    },
+    "buttons": [],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "妹纸图",
+      "description": "发现最美的Cosplay、写真和时尚摄影系列。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "妹纸图"
+      },
+      "url": "/zh"
+    },
+    "copyright": "© 2026 • 妹纸图 保留所有权利。",
+    "nav": {
+      "items": [
+        {
+          "title": "发现",
+          "children": [
+            {
+              "title": "模特",
+              "url": "/u",
+              "target": "_self"
+            },
+            {
+              "title": "最新",
+              "url": "/zh",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": []
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "Meizhi Girl",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Meizhi Girl"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Models",
+          "url": "/u",
+          "icon": "HiOutlineUserGroup"
+        },
+        {
+          "title": "Pricing",
+          "url": "/pricing",
+          "icon": "MdPayment"
+        }
+      ]
+    },
+    "buttons": [],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "Meizhi Girl",
+      "description": "Discover the most beautiful cosplay, portrait, and fashion photography series.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Meizhi Girl"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • Meizhi Girl All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "Discovery",
+          "children": [
+            {
+              "title": "Models",
+              "url": "/u",
+              "target": "_self"
+            },
+            {
+              "title": "Latest",
+              "url": "/",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": []
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "header": {
+    "title": "Membership Plans",
+    "description": "Unlock unlimited access to high-quality photo galleries."
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "Pricing",
+    "title": "Simple Pricing",
+    "description": "Choose the plan that suits you best. Cancel anytime.",
+    "items": [
+      {
+        "title": "Weekly Pass",
+        "description": "Perfect for trying out.",
+        "features_title": "Includes",
+        "features": [
+          "Unlock 10 Galleries",
+          "High-Resolution Downloads",
+          "No Ads",
+          "Valid for 7 Days"
+        ],
+        "interval": "week",
+        "amount": 490,
+        "currency": "USD",
+        "price": "$4.9",
+        "original_price": "$9.9",
+        "unit": "Week",
+        "is_featured": false,
+        "tip": "Try it out!",
+        "button": {
+          "title": "Get Started",
+          "url": "/api/checkout?plan=weekly",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "weekly_pass"
+      },
+      {
+        "title": "Monthly VIP",
+        "description": "Most popular choice.",
+        "label": "Popular",
+        "features_title": "Everything in Weekly, plus",
+        "features": [
+          "Unlock Unlimited Galleries",
+          "Priority Customer Support",
+          "Exclusive 4K Content",
+          "Valid for 30 Days"
+        ],
+        "interval": "month",
+        "amount": 1990,
+        "currency": "USD",
+        "price": "$19.9",
+        "original_price": "$29.9",
+        "unit": "Month",
+        "is_featured": true,
+        "tip": "Best Value!",
+        "button": {
+          "title": "Join VIP",
+          "url": "/api/checkout?plan=monthly",
+          "icon": "RiCrownFill"
+        },
+        "product_id": "monthly_vip"
+      },
+      {
+        "title": "Yearly Access",
+        "description": "For the true collectors.",
+        "features_title": "Everything in Monthly, plus",
+        "features": [
+          "Save 50% vs Monthly",
+          "Valid for 365 Days",
+          "Offline Batch Download",
+          "Private Request Access"
+        ],
+        "interval": "year",
+        "amount": 9900,
+        "currency": "USD",
+        "price": "$99.0",
+        "original_price": "$199.0",
+        "unit": "Year",
+        "is_featured": false,
+        "tip": "Save 50%",
+        "button": {
+          "title": "Get Yearly",
+          "url": "/api/checkout?plan=yearly",
+          "icon": "RiVipDiamondFill"
+        },
+        "product_id": "yearly_vip"
+      }
+    ]
+  }
+}

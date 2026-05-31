@@ -1,0 +1,26 @@
+diff --git a/dist/esm/pattern.js b/dist/esm/pattern.js
+index b41defa10c6a3acd347a2b8464ef28af970dd741..2b429f8232aa2ff1debd03a8be22b44eaf1b6bdc 100644
+--- a/dist/esm/pattern.js
++++ b/dist/esm/pattern.js
+@@ -1,5 +1,7 @@
+ // this is just a very light wrapper around 2 arrays with an offset index
+-import { GLOBSTAR } from 'minimatch';
++import * as minimatch from 'minimatch';
++console.log('MINIMATCH DEBUG:', Object.keys(minimatch));
++const { GLOBSTAR } = minimatch;
+ const isPatternList = (pl) => pl.length >= 1;
+ const isGlobList = (gl) => gl.length >= 1;
+ /**
+diff --git a/dist/esm/processor.js b/dist/esm/processor.js
+index f874892ffed0c4affb2e0c2c17895e9ebe2a9afd..679fe2579ac934dace79d37e5ebaff840d7f57fc 100644
+--- a/dist/esm/processor.js
++++ b/dist/esm/processor.js
+@@ -1,5 +1,7 @@
+ // synchronous utility for filtering entries and calculating subwalks
+-import { GLOBSTAR } from 'minimatch';
++import * as minimatch from 'minimatch';
++const { GLOBSTAR } = minimatch;
++
+ /**
+  * A cache of which patterns have been processed for a given Path
+  */

@@ -1,0 +1,90 @@
+{
+  "header": {
+    "title": "会员计划",
+    "description": "解锁海量高清图集，尽情享受视觉盛宴。"
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "定价",
+    "title": "简单透明的定价",
+    "description": "选择最适合您的方案。随时取消。",
+    "items": [
+      {
+        "title": "周卡体验",
+        "description": "适合尝鲜体验。",
+        "features_title": "包含",
+        "features": [
+          "解锁 10 套图集",
+          "高清原图下载",
+          "无广告干扰",
+          "有效期 7 天"
+        ],
+        "interval": "week",
+        "amount": 490,
+        "currency": "USD",
+        "price": "$4.9",
+        "original_price": "$9.9",
+        "unit": "周",
+        "is_featured": false,
+        "tip": "尝鲜首选！",
+        "button": {
+          "title": "立即开始",
+          "url": "/api/checkout?plan=weekly",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "weekly_pass"
+      },
+      {
+        "title": "月度 VIP",
+        "description": "最受欢迎的选择。",
+        "label": "热门",
+        "features_title": "包含周卡所有权益，另加",
+        "features": [
+          "解锁无限量图集",
+          "优先客服支持",
+          "独家 4K 内容",
+          "有效期 30 天"
+        ],
+        "interval": "month",
+        "amount": 1990,
+        "currency": "USD",
+        "price": "$19.9",
+        "original_price": "$29.9",
+        "unit": "月",
+        "is_featured": true,
+        "tip": "超值推荐！",
+        "button": {
+          "title": "加入 VIP",
+          "url": "/api/checkout?plan=monthly",
+          "icon": "RiCrownFill"
+        },
+        "product_id": "monthly_vip"
+      },
+      {
+        "title": "年度至尊",
+        "description": "真爱粉和收藏家的选择。",
+        "features_title": "包含月卡所有权益，另加",
+        "features": [
+          "比月付节省 50%",
+          "有效期 365 天",
+          "离线批量下载",
+          "私人订制请求权限"
+        ],
+        "interval": "year",
+        "amount": 9900,
+        "currency": "USD",
+        "price": "$99.0",
+        "original_price": "$199.0",
+        "unit": "年",
+        "is_featured": false,
+        "tip": "立省 50%",
+        "button": {
+          "title": "获取年卡",
+          "url": "/api/checkout?plan=yearly",
+          "icon": "RiVipDiamondFill"
+        },
+        "product_id": "yearly_vip"
+      }
+    ]
+  }
+}
